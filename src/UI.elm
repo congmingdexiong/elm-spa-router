@@ -17,7 +17,7 @@ layout children =
             , viewLink "Static" Route.Static
             , viewLink "Sandbox" Route.Sandbox
             , Html.div [ Attr.class "splitter" ] []
-            , viewLink "Dynamic: Apple" (Route.Dynamic__Name_ { name = "apple" })
+            , viewLink "Dynamic: Apple" (Route.Dynamic__Name_ { name = "apple1" })
             , viewLink "Dynamic: Banana" (Route.Dynamic__Name_ { name = "banana" })
             ]
         , Html.main_ [] children

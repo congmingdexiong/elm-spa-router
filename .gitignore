@@ -1,6 +1,7 @@
 # Elm build artifacts
 elm-stuff/
 elm.js
+.elm-spa
 
 # Optional: ignore generated docs
 docs.json
