@@ -1,5 +1,25 @@
+# Elm build artifacts
+elm-stuff/
+elm.js
+
+# Optional: ignore generated docs
+docs.json
+
+# Node dependencies (if using npm or yarn)
+node_modules/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
 .DS_Store
-.elm-spa
-elm-stuff
-node_modules
-dist
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (if used)
+.env
